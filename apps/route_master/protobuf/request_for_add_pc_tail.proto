@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message request_for_add_pc_tail {
+  string ua = 1;
+  string encoded_pc_tail = 2;
+}

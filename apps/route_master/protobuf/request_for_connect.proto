@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message request_for_connect {
+  string ua = 1;
+  string pubkey = 2;
+}
